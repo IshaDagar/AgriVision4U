@@ -1,0 +1,60 @@
+.page2{
+    display: flex;
+    flex-direction: column;
+    .other-packages{
+        h1{
+            color:#0B6E4F;
+            text-align: left;
+            margin-left: 30px;
+        }
+    }
+    .div1{
+        display: flex;
+        flex-direction: row;
+        .subject-questions{
+            margin: auto;
+            margin-top: 50px;
+            .topic{
+                h1{
+                    text-align: left;
+                    color:#0B6E4F;
+                }
+                button{
+                    padding: 10px 14px;
+                    margin: 10px;
+                    font-weight: 600;
+                    font-size: 15px;
+                    background-color: transparent;
+                    border-radius: 8px;
+                    border: 1px solid grey;
+                    color:#0B6E4F;
+                    cursor: pointer;
+                }
+                button:hover{
+                    background-color: #13AE7E;
+                    color: white;
+                }
+            }
+        }
+        .side-nav{
+            color: white;
+            hr{
+                width: 70%;
+            }
+            p{
+                cursor: pointer;
+                width: 60%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: left;
+                margin-left: 50px;
+                border-radius: 5px;
+                padding-left: 8px;
+            }
+            p:hover{
+                color: #0B6E4F;
+                background-color: white;
+            }
+        }
+    }
+}
